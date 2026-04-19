@@ -1,0 +1,19 @@
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+coverage/
+
+# Exclude example platform folders — only ship the Dart source so pub.dev
+# users can still browse the example code without a multi-MB archive.
+example/android/
+example/ios/
+example/linux/
+example/macos/
+example/web/
+example/windows/
+example/build/
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/pubspec.lock
